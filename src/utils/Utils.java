@@ -19,7 +19,6 @@ import java.util.concurrent.ThreadLocalRandom;
 
 import object.WorldDataTuple;
 
-// Shuvradeb Barman Srijon
 
 public class Utils {
 	public static String createRandomString(int len, boolean do_capitalize) {
