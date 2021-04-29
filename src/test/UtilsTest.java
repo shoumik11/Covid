@@ -20,8 +20,7 @@ class ProjectTestCase extends TestCase {
 	void testUtils() {
 		//fail("Not yet implemented");
 		float f = (float) 2.335;
-		assertEquals("Checking Utils.round", f, Utils.round(new Float("2.33469"), 3));
-		assertEquals("Checking Utils.getDateStringFromEpoch", "2020-06-28", Utils.getDateStringFromEpoch(1593337483));
+		String s= "zahid";
 		
 		String s = Utils.createRandomString(5, true);
 		assertEquals(true, s.length() <= 5);
